@@ -1,0 +1,52 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    user-select: none;
+    font-family: arial;
+}
+
+table {
+    margin: auto;
+    box-shadow: 2px 2px 1px gray;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+td {
+    background-color: #F44336;
+    width: 150px;
+    height: 150px;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+}
+
+#output {
+    clear: both;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.playagain {
+    font-size: 20px;
+    background: #fff;
+    border: 2px solid #F44336;
+    padding: 3px 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: .1s;
+}
+
+.playagain:hover {
+    background: #F44336;
+    color: #fff;
+}
+
+.playagain:focus {
+    outline: 0;
+}
