@@ -87,9 +87,10 @@ let playAgain = () => {
     document.querySelector(".playagain").addEventListener("click", () => {
         boxes.forEach(box => {
             box.innerHTML = "";
-            output.innerHTML = "";
-			sign = "x";
-            gameover = false;
-        })
+    	})
+	    
+        output.innerHTML = "";
+	sign = "x";
+        gameover = false;
     })
 }
